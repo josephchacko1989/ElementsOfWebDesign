@@ -36,7 +36,7 @@ img:hover {
 .c3 {
   border-style: dashed;
   border-color: red;
-  color: blue;
+  /*color: blue;*/
   text-align: center;
   border-width: 3px;
 }
@@ -52,7 +52,7 @@ img:hover {
 }
 
 .c0 {
-
+  color: blue;
 }
 
 /*** ID SELECTORS ***/

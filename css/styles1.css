@@ -33,26 +33,27 @@ img:hover {
   border: 0;
 }
 
-.c3 {
+
+
+
+.c0 {
+}
+.c1 {
   border-style: dashed;
   border-color: red;
-  color: blue;
-  text-align: center;
-  border-width: 3px;
+  font-style: italic;
 }
-
 .c2 {
   color: blue;
   text-align: center;
 }
-
-.c1 {
+.c3 {
   border-style: dashed;
   border-color: red;
-}
-
-.c0 {
-
+  font-style: italic;
+  color: blue;
+  text-align: center;
+  font-size: 48px;
 }
 
 /*** ID SELECTORS ***/

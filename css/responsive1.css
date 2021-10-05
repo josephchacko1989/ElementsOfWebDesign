@@ -24,17 +24,21 @@ img:hover {
 /*** CLASS SELECTORS ***/
 /* use broadly */
 /* Floating column for labels: 25% width */
-.col-25 {
+.labels {
   float: left;
-  width: 25%;
-  margin-top: 6px;
+  width: 40%;
+  margin: 6px;
+  font-size: 32px;
+  color: navy;
 }
 
 /* Floating column for inputs: 75% width */
-.col-75 {
+.textboxes {
   float: left;
-  width: 75%;
-  margin-top: 6px;
+  width: 50%;
+  margin: 6px;
+  height: 32px;
+  font-size: 24px;
 }
 
 /* Clear floats after the columns */
@@ -57,21 +61,16 @@ img:hover {
 }*/
 
   @media screen and (max-width: 700px) {
-    .col-25, .col-75 {
+    .labels {
+      width: 100%;
+      margin-top: 0;
+    }
+    .textboxes {
       width: 100%;
       margin-top: 0;
     }
   }
 
-
-  /* THIS WORKS
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75 {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-  */
 
 
 /*** ID SELECTORS ***/
