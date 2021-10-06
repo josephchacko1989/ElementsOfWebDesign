@@ -1,0 +1,77 @@
+/*** TAG SELECTORS ***/
+body { background-color: powderblue; }
+img { border-radius: 100%; margin-right: 10px; width: 80%;}
+hr {
+    border-style: none;
+    border-top: dotted 5px;
+    color: grey;
+    margin-top: 10px;
+    width: 5%;
+  }
+h1 {
+  font-size: 50vw;
+  /*max-width: 50%;*/
+}
+
+
+h2 {color: #66BFBF;}
+h3 {color: #66BFBF;}
+img:hover {
+  width: 82%;
+}
+
+
+/*** CLASS SELECTORS ***/
+/* use broadly */
+/* Floating column for labels: 25% width */
+.labels {
+  float: left;
+  width: 40%;
+  margin: 6px;
+  font-size: 32px;
+  color: navy;
+}
+
+/* Floating column for inputs: 75% width */
+.textboxes {
+  float: left;
+  width: 50%;
+  margin: 6px;
+  height: 32px;
+  font-size: 24px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+@media screen and (min-width: 1101px) {
+}
+/*
+@media screen and (min-width: 701px) and (max-width: 1100px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+}*/
+
+  @media screen and (max-width: 700px) {
+    .labels {
+      width: 100%;
+      margin-top: 0;
+    }
+    .textboxes {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+
+/*** ID SELECTORS ***/
+/* use sparingly - can only be used once on an html page */
