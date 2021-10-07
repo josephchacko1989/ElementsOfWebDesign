@@ -1,6 +1,6 @@
 /*** TAG SELECTORS ***/
-body { background-color: powderblue; margin: 0; padding: 0; border: 0;}
-img { border-radius: 100%; margin-right: 10px; width: 80%;}
+body { background-color: black; margin: 0; padding: 0; border: 0;}
+
 hr {
     border-style: none;
     border-top: dotted 5px;
@@ -14,20 +14,11 @@ h1 {
   margin: 0;
 }
 
-.c3 {
-  border-style: dashed;
-  border-color: red;
-  color: blue;
-  text-align: center;
-  border-width: 3px;
-  padding: 0;
-  margin: 0;
-  border: 0;
-}
+
 
 
 .c0 {
-  color: navy;
+  color: grey;
   text-align: center;
   font-family:'Butcherman Caps', serif;
   font-size: 64px;
@@ -35,19 +26,26 @@ h1 {
   font-weight: lighter;
 }
 .c1 {
-  margin: 0;
+  color: white;
+  text-align: center;
   font-family: 'Tangerine', serif;
   font-size: 48px;
   padding: 6px;
 }
 .c2 {
-  color: blue;
+  color: red;
+  text-align: center;
   font-family: 'Yellowtail', serif;
   font-size: 40px;
   padding: 6px;
   font-weight: lighter;
 }
-
+.ring {
+  max-width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 h2 {color: #66BFBF;}
